@@ -1,0 +1,41 @@
+diff -ruN original/apktool.yml hacked/apktool.yml
+--- original/apktool.yml	2016-10-14 20:20:54.136509234 +0200
++++ hacked/apktool.yml	2016-10-14 20:14:04.757947136 +0200
+@@ -18,5 +18,5 @@
+   tag: null
+ version: 2.2.0
+ versionInfo:
+-  versionCode: '4'
+-  versionName: 1.0.0.4
++  versionCode: '99'
++  versionName: 1.0.0.4 (hacked by krzys_h)
+diff -ruN original/res/values/strings.xml hacked/res/values/strings.xml
+--- original/res/values/strings.xml	2016-10-14 20:20:53.188503301 +0200
++++ hacked/res/values/strings.xml	2016-10-14 20:13:50.385857189 +0200
+@@ -27,7 +27,7 @@
+     <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+     <string name="auth_client_requested_by_msg">Requested by %1$s</string>
+     <string name="location_client_powered_by_google">Powered by Google</string>
+-    <string name="app_name">e-Dziennik &amp; Synergia</string>
++    <string name="app_name">e-Dziennik &amp; Synergia (hacked by krzys_h)</string>
+     <string name="hello_world">Hello world!</string>
+     <string name="not_implemented">NOT IMPLEMENTED</string>
+     <string name="confirmation">Potwierdzenie</string>
+diff -ruN original/smali/pl/devcraft/edziennik/datamodel/RestClient.smali hacked/smali/pl/devcraft/edziennik/datamodel/RestClient.smali
+--- original/smali/pl/devcraft/edziennik/datamodel/RestClient.smali	2016-10-14 20:20:54.088508934 +0200
++++ hacked/smali/pl/devcraft/edziennik/datamodel/RestClient.smali	2016-10-14 19:56:36.007383520 +0200
+@@ -1513,12 +1513,12 @@
+     iput-object v0, p0, Lpl/devcraft/edziennik/datamodel/RestClient;->mCaptchaRequestUrl:Ljava/lang/String;
+ 
+     .line 647
+-    const-string v0, "14"
++    const-string v0, "35"
+ 
+     iput-object v0, p0, Lpl/devcraft/edziennik/datamodel/RestClient;->mClientId:Ljava/lang/String;
+ 
+     .line 648
+-    const-string v0, "3dd86ca34196d54211092eb94651dca7"
++    const-string v0, "636ab418ccbe882b19a33f577e94cb4f"
+ 
+     iput-object v0, p0, Lpl/devcraft/edziennik/datamodel/RestClient;->mClientSecretToken:Ljava/lang/String;
+ 
