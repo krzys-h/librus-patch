@@ -12,6 +12,6 @@ FAQ
 
   Ze względu na zabezpieczenia systemu Android przed nieautoryzowanymi aktualizacjami, przed zainstalowaniem zmodyfikowanej wersji aplikacji trzeba odinstalować tę oryginalną.
 
-2. **Synchronizacja nie powiodła się, wystąpił błąd LIBRUS_MOBILE_APP_ACCEP_NEEDED**
+2. **Synchronizacja nie powiodła się, wystąpił błąd LIBRUS_MOBILE_APP_ACCEPT_NEEDED**
 
   Należy przynajmniej raz uruchomić NOWĄ oficjalną aplikację, zalogować się do niej i zaakceptować regulamin
